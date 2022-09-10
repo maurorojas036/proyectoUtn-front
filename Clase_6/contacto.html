@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <section>
+
+        <form action="https://formspree.io/f/mdojapnr" method="post" class="formulario">
+            <fieldset class="fieldset">
+                <legend>Formulario Prueba</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+            
+            <label for="email">Correo: </label>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu email">
+            
+            <label for="fecha">Fecha Nacimiento: </label>
+            <input type="date" name="nacimiento" id="nacimiento" placeholder="Ingresa Fecha de Nacimiento">
+            
+            <label for="password">Contaseña: </label>
+            <input type="password" name="password" id="password" placeholder="Ingresa la contraseña">
+            
+            <label for="seleccionar">Talles</label>
+            <select name="seleccionar" id="seleccionar">
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+            </select>
+            <br>
+            
+            <label for="comentario">Escriba su comentario</label> <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+            
+            <!-- radiobutton -->
+            <label for="pais">Argentina</label>
+            <input type="radio" name="pais" value="Argentina">
+            <label for="pais">Uruguay</label>
+            <input type="radio" name="pais" value="Uruguay">
+            <label for="pais">Brasil</label>
+            <input type="radio" name="pais" value="Brasil">
+
+            <!-- Casilla de chequeo -->
+
+            <div>
+                Acepta los términos y condiciones
+            </div>
+            <input type="checkbox"  name="acepta" value="1">
+            <br>
+            <input type="submit">
+            <button name="limpiar">Limpiar Formulario</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+
+    </section>
+    <div>
+        <a href="./index.html">Go back</a>
+    </div>
+</body>
+</html>

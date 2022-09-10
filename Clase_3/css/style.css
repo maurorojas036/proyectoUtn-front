@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(201, 200, 200);
+}
+
+.encabezado{
+    background-image: url('../img/Advengers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+}
+
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+}
+
+.menuSuperior li{
+    display: inline-block;
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(241,169,80);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.fontTitle{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.margin{
+    margin: 0.5em;
+}

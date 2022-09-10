@@ -1,0 +1,29 @@
+/* Formulario */
+
+.formulario{
+    padding: 4rem;
+    margin: 2rem;
+    background-color: #e7e7e7;
+}
+
+.formulario input{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.formulario textarea{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.formulario select{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.fieldset{
+    border: none;
+}
