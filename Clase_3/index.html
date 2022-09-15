@@ -4,56 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Index</title>
 </head>
 <body>
     <header class="encabezado">
-        <section>
-            <nav>
-                <ul class="menuSuperior">
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="./view/personajes.html">PERSONAJES</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                    <li><a href="#">NOSOTROS</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="menuSuperior">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./view/personajes.html">PERSONAJES</a></li>
+                <li><a href="#">CONTACTO</a></li>
+                <li><a href="./view/nosotros.html">NOSOTROS</a></li>
+            </ul>
+        </nav>
 
-        <h1 class="fontTitle">Home</h1>
-        <h2 class="margin"><em>Curso FullStack</em></h2>
-        
+        <h1>Home</h1>
     </header>
 
-    <section>
-        <h2><strong>Nombre y Apelllido: </strong> Mauro Rojas</h2>
+    <!-- <section id="title">
+        
+    </section> -->
+
+    <!-- enlace interno -->
+    <!-- <a href="view/nosotros.html#pie">ir</a> -->
+    <!-- enlace relativo: el destino es una pagina que se encuentra en nuestro proyecto -->
+    <!-- <a href="./view/nosotros.html">NOSOTROS</a> -->
+    <!--enlace absoluto: el destino apunta a un sitio fuera de nuestro sitio  -->
+    <!-- <a href="http://www.google.com">Google</a> -->
+    <section class="presentation">
+        <h2><strong>Nombre y Apelllido:</strong> Mauro Rojas</h2>
         <h3>Biografia: </h3>
         <p>Hola, mi objetivo es afianzar mis conocimientos :)</p>
     </section>
     
-    <Section>
+    <div class="listExemplo">
         <h3>Listas</h3>
-        <h4>Ordenada</h4>
+        <div>
+            <h4>Ordenada</h4>
+            <ol>
+                <li>Poner a calentar el agua</li>
+                <li>Poner yerba en mate</li>
+                <li>Realizar un hueco en donde volcar el agua</li>
+                <li>Colocar bombilla</li>
+                <li>Disfrutar del mate!</li>
+            </ol>
+        </div>
         
-        <ol>
-            <li>Poner a calentar el agua</li>
-            <li>Poner yerba en mate</li>
-            <li>Realizar un hueco en donde volcar el agua</li>
-            <li>Colocar bombilla</li>
-            <li>Disfrutar del mate!</li>
-        </ol>
+        <div>
+            <h4>Sin Orden</h4>
+            <ul>
+                <li>Liga Argentina</li>
+                <li>Liga Inglesa</li>
+                <li>Liga Alemana</li>
+                <li>Liga Española</li>
+            </ul> 
+        </div>
+          
+    </div>
 
-        <h4>Sin Orden</h4>
-        <ul>
-            <li>Liga Argentina</li>
-            <li>Liga Inglesa</li>
-            <li>Liga Alemana</li>
-            <li>Liga Española</li>
-        </ul>
-    </Section>
-    <footer>
-        <hr>
-        <h6>UTLBA</h6>
+    <footer class="pie">
+        <h5>Clase 2:Curso FullStack</h5>
+        <h5>by:Mauro Rojas</h5>
+        <h5>UTN-Buenos Aires</h5>
     </footer>
 </body>
 </html>

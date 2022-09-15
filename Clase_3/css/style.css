@@ -1,25 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+/* 
+Selector{
+    propiedad: valor;
+}
+
+
+*/
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(201, 200, 200);
+    /* background-color: rgb(201, 200, 200); */
 }
 
 .encabezado{
-    background-image: url('../img/Advengers.png');
-    background-repeat: no-repeat;
+    background-image: url('../img/v.png');
+    background-repeat: space;
     background-size: cover;
-    background-position: center;
-    padding: 1rem;
+    background-position: left center;
+    padding: 4rem;
+}
+
+.encabezado h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
 }
 
 .menuSuperior{
-    list-style: none;
     text-align: center;
 }
 
@@ -29,18 +42,88 @@ body{
 
 .menuSuperior a{
     text-decoration: none;
-    color: rgb(241,169,80);
+    color: rgb(8, 8, 8);
     font-weight: 700;
     font-size: 1rem;
     padding: 1rem;
 }
 
-.fontTitle{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    text-align: center;
-}
-
 .margin{
     margin: 0.5em;
 }
+
+.presentation{
+    display: inline;
+    margin: 1rem;
+}
+
+.presentation h3{
+    display: inline;
+    margin: 0.5rem 0.5rem;
+    text-decoration: underline;
+    background-color: red;
+}
+
+.presentation p{
+    display: inline;
+    margin-bottom: 1rem;
+    text-align:justify;
+    line-height: normal;
+    background-color: aqua;
+}
+
+.listExemplo{
+    margin: 1rem;
+}
+
+.listExemplo h3{
+    background-color: blueviolet;
+    margin: 0.5rem;
+}
+
+
+.listExemplo div{
+    display: inline-block
+}
+
+/* .listExemplo ol{
+    background-color: coral;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.listExemplo ul{
+    background-color: coral;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+} */
+
+
+.listExemplo h4{
+    background-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+footer h5{
+    display: inline;
+}
+/* #title{
+    color: aqua;
+}
+.title{
+    color: red;
+} 
+section{
+    color: orange;
+}
+
+*/
+
+
+
