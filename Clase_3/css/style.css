@@ -15,21 +15,22 @@ Selector{
 
 body{
     font-family: 'Roboto', sans-serif;
-    /* background-color: rgb(201, 200, 200); */
+    /* background-color: rgb(201, 200, 200);  */
 }
 
 .encabezado{
-    background-image: url('../img/v.png');
+    background-image: url('../img/2cd43b_fab705a023754c48b96b13a74b55b455_mv2.png');
     background-repeat: space;
     background-size: cover;
-    background-position: left center;
-    padding: 4rem;
+    background-position: center center;
+    padding: 10rem;
 }
 
 .encabezado h1{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-align: center;
+    color: white;
 }
 
 .menuSuperior{
@@ -42,7 +43,7 @@ body{
 
 .menuSuperior a{
     text-decoration: none;
-    color: rgb(8, 8, 8);
+    color: white;
     font-weight: 700;
     font-size: 1rem;
     padding: 1rem;
@@ -61,57 +62,45 @@ body{
     display: inline;
     margin: 0.5rem 0.5rem;
     text-decoration: underline;
-    background-color: red;
 }
 
 .presentation p{
-    display: inline;
-    margin-bottom: 1rem;
+    margin: 1rem;
     text-align:justify;
     line-height: normal;
-    background-color: aqua;
 }
 
 .listExemplo{
-    margin: 1rem;
+    margin-left: 1rem;
 }
-
-.listExemplo h3{
-    background-color: blueviolet;
-    margin: 0.5rem;
-}
-
 
 .listExemplo div{
-    display: inline-block
-}
-
-/* .listExemplo ol{
-    background-color: coral;
-    margin: 1rem;
+    display: block;
     text-align: center;
-    display: inline-block;
 }
-
-.listExemplo ul{
-    background-color: coral;
-    margin: 1rem;
-    text-align: center;
-    display: inline-block;
-} */
-
 
 .listExemplo h4{
-    background-color: blue;
     font-weight: bold;
     font-style: italic;
     text-align: center;
     margin: 0.5rem;
 }
 
+.pie div{
+    display: inline-block;
+}
 
-footer h5{
-    display: inline;
+.izquierdo{
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.centro{
+    margin-left: 30%;
+}
+
+.derecho{
+    margin-left: 89%;
 }
 /* #title{
     color: aqua;

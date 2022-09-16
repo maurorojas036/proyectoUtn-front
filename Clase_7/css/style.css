@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile FIRS */
+body{
+    background-color: aqua;
+}
+
+.tienda{
+    background-color: brown;
+    text-align: center;
+
+}
